@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/styles.css">
+        <script src="./js/jquery_v2.2.0.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header-block">
+                <div class="header-block__menu">
+                    <div class="header-block__logo header-block__items">GENOTEK</div>
+                    <div class="header-block__text header-block__items">неделю назад</div>
+                    <div class="header-block__user header-block__items">доступно только мне</div>
+                </div>
+                <h1 class="header-block__h">Подарочный набор для сдачи ДНК-теста доставлен</h1>
+                <p class="header-block__content">Спасибо, что выбрали Genotek! На упаковке вы найдете подробную инструкцию как сдать ДНК-тест.</p>
+            </header>
+            <div class="block-image">
+                <picture>
+                    <source srcset="./img/header/1.jpg" media="(min-width: 769px)">
+                    <source srcset="./img/header/1.jpg" media="(min-width: 426px) and (max-width: 768px)">
+                    <source srcset="./img/header/1.jpg" media="(max-width: 425px)">
+                    <img src="mdn-logo-narrow.png" alt="MDN">
+                </picture>
+            </div>
+            <footer class="slider-block">
+                <div class="slider-block__item">
+                    <div class="slider-block__header">
+                        <h3 class="slider-block__header__text">Как подарить набор другу, чтобы он создал свой личный кабинет?</h3>
+                    </div>
+                    <div class="slider-block__animate">
+                        <div class="slider-block__content">
+                            <div class="slider-block__text">
+                                <p>Все просто! На подарочной упаковке ДНК-теста указан временный логин и пароль, который защищен стираемой полосой.
+                                </p> 
+                                <p>Человеку, который получил ДНК-тест в подарок, нужно ввести временный логин и пароль на странице входа в личный кабинет <a class="slider-block__link" href="lk.genotek.ru">lk.genotek.ru.</a> После этого ему будет предложено зарегистрироваться или указать данные уже зарегистрированного пользователя, ввести номер пробирки и вызвать курьера для доставки биоматериала в лабораторию.
+                                </p> 
+                                <p>Обратите внимание, что по умолчанию вы не получите доступ к результатам ДНК-теста того, кому вы подарили тест. Но вы можете попросить вашего близкого поделиться с вами результатами в его настройках профиля.
+                                </p>
+                            </div>
+                            <div class="slider-block__img">
+                                <img src="./img/footer/2.png" alt="Как сдать тест">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-block__item">
+                    <div class="slider-block__header">
+                        <h3 class="slider-block__header__text">Как подарить набор другу, чтобы он создал свой личный кабинет?</h3>
+                    </div>
+                    <div class="slider-block__animate">
+                        <div class="slider-block__content">
+                            <div class="slider-block__text2">
+                                <p>
+                                    На подарочной упаковке ДНК-теста указан временный логин и пароль, который защищен стираемой полосой. Пожалуйста, введите их ниже. После ввода временных данных, вы сможете ввести номер пробирки и вызвать курьера для доставки биоматериала в лабораторию. 
+                                </p>
+                                <form class="slider-block__text__form" method="POST" action="">
+                                    <div><input type="text" placeholder="Логин"><span class="slider-block__text__form__reset"></span></div>
+                                    <div><input type="text" placeholder="Пароль"><span class="slider-block__text__form__reset"></span></div>
+                                    <input type="submit" value="Активировать ДНК-тест">
+                                </form>
+                            </div>
+                            <div class="slider-block__img">
+                                <img src="./img/footer/2.png" alt="Как сдать тест">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
